@@ -17,9 +17,9 @@ export PS1='\e[0;35m[\u@\H:\j:\! ~> \e[m'
 
 # functions
 # example hkill <namespace>
-fuction hkill() {
-  helm uninstall $(helm list -aq -n $1) -n $1
-} 
+#fuction hkill {
+#  helm uninstall $(helm list -aq -n $1) -n $1
+#} 
 
 alias apps="cd $SANDBOX"
 alias ..='cd ..'
