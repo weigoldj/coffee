@@ -1,25 +1,33 @@
-<p align="center"><img src="https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg" width="360"></p>
-
-<p align="center">
-<a href="https://pkg.go.dev/github.com/gobuffalo/cli"><img src="https://pkg.go.dev/badge/github.com/gobuffalo/cli" alt="PkgGoDev"></a>
-<img src="https://github.com/gobuffalo/cli/workflows/Tests/badge.svg" alt="Tests Status" />
-<a href="https://goreportcard.com/report/github.com/gobuffalo/cli"><img src="https://goreportcard.com/badge/github.com/gobuffalo/cli" alt="Go Report Card" /></a>
-</p>
-
-# Buffalo CLI
-
-This is the repo for the Buffalo CLI. The Buffalo CLI is a tool to develop, test and deploy your Buffalo applications.
+# Coffee 
+---
+## Overview
+Personal development envirionment to help kick start the setup of a new machine.
 
 ## Installation
-
-To install the Buffalo CLI you can run the following command:
-
-```bash
-go install github.com/gobuffalo/cli/cmd/buffalo@latest
 ```
+> mkdir -p ~/Documents/sandbox
+> cd ~/Documents/sandbox
+> git pull https://github.com/weigoldj/coffee.git
 
-<!-- Installing the Buffalo CLI requires Go 1.16 or newer as it depends heavily on the embed package. Once you have ensured you installed Go 1.16 or newer,  -->
+# add the following line to your .bashrc 
+alias devenv='cd ~/Documents/sandbox/coffee; source devenv.sh'
+```
+---
+## Links
+- [GIT](#git)
+- [Docker](#docker)
+- [Helm](#helm)
+- [Kubernetes](#kubernetes)
+- [Go](#go)
 
-## Usage
+---
+### GIT
 
-Once installed, the Buffalo CLI can be used by invoking the `buffalo` command. To know more about the available commands, run the `buffalo help` command. or you can also get details on a specific command by running `buffalo help <command>`.
+### Docker
+
+## Helm
+
+## Kubernetes 
+
+## Go
+
